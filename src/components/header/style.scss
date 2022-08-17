@@ -1,0 +1,40 @@
+.header{
+  padding: 44px 0;
+  .logo-text {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 50px;
+    
+    // @include xl {
+    //   font-size: 1.5rem;
+    //   color: red;
+    // }
+  
+    // @include lg {
+    //   font-size: 1.5rem;
+    //   color: green;
+    // }
+    // @include md {
+    //   font-size: 1.5rem;
+    //   color: blue;
+    // }
+    // @include sm {
+    //   font-size: 1.5rem;
+    // }
+  }
+  input{
+    height: 30px;
+    width: 300px;
+  }
+  .header-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .user-icon{
+    font-size: 25px;
+  }
+}
