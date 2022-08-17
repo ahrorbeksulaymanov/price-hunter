@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/price-hunter/static/css/main.1db285a0.css",
+    "main.js": "/price-hunter/static/js/main.7355f196.js",
+    "static/js/787.1b9c052a.chunk.js": "/price-hunter/static/js/787.1b9c052a.chunk.js",
+    "static/media/phone.jpg": "/price-hunter/static/media/phone.5d143efd7f4c8450d286.jpg",
+    "static/media/Gilroy-Medium.woff": "/price-hunter/static/media/Gilroy-Medium.7299347ad34bddeae499.woff",
+    "static/media/Gilroy-Bold.woff": "/price-hunter/static/media/Gilroy-Bold.1d86ffe66e2c848892fe.woff",
+    "static/media/Gilroy-SemiBold.woff": "/price-hunter/static/media/Gilroy-SemiBold.b53159dea9c94f832f80.woff",
+    "static/media/Gilroy-Regular.woff": "/price-hunter/static/media/Gilroy-Regular.826d04fde24bbc0435f6.woff",
+    "static/media/Gilroy-Bold.woff2": "/price-hunter/static/media/Gilroy-Bold.a890101e1292bc8c92fd.woff2",
+    "static/media/Gilroy-Medium.woff2": "/price-hunter/static/media/Gilroy-Medium.e2e018bbd3526e156ef0.woff2",
+    "static/media/Gilroy-SemiBold.woff2": "/price-hunter/static/media/Gilroy-SemiBold.70561b455050e2a7e73e.woff2",
+    "static/media/Gilroy-Regular.woff2": "/price-hunter/static/media/Gilroy-Regular.a89ac858796c04bb651a.woff2",
+    "index.html": "/price-hunter/index.html",
+    "main.1db285a0.css.map": "/price-hunter/static/css/main.1db285a0.css.map",
+    "main.7355f196.js.map": "/price-hunter/static/js/main.7355f196.js.map",
+    "787.1b9c052a.chunk.js.map": "/price-hunter/static/js/787.1b9c052a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1db285a0.css",
+    "static/js/main.7355f196.js"
+  ]
+}
