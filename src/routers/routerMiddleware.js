@@ -3,7 +3,7 @@ import NoneLayout from "../layouts/noneLayout";
 import ClientLayout from "../layouts/clientLayout";
 import AdminLayout from "../layouts/adminLayout";
 import NotFound from "../components/notFound";
-import { public_routes } from ".";
+import { public_routes } from "./index.js";
 import { Route, Routes } from "react-router-dom";
 
 const RoutesMiddleware = () => {
@@ -23,10 +23,12 @@ const RoutesMiddleware = () => {
               path={item?.path}
               exact={item.exact}
               element={
-                item.config.structure === "layout" ? (
-                    <AdminLayout>{createComponent(item.component)}</AdminLayout>
-                    ) : item.config.structure === "clientLayout" ? (
+                item.config.structure == "clientLayout" ? (
                   <ClientLayout>{createComponent(item.component)}</ClientLayout>
+                    // <AdminLayout>{createComponent(item.component)}</AdminLayout>
+                    ) : item.config.structure == "layout" ? (
+                      <AdminLayout>{createComponent(item.component)}</AdminLayout>
+                  // <ClientLayout>{createComponent(item.component)}</ClientLayout>
                 ) : (
                   <NoneLayout>{createComponent(item.component)}</NoneLayout>
                 )
